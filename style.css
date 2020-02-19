@@ -18,22 +18,33 @@ body {
 h1 {
     font-weight: 900;
     float: left;
-    color: #ff7600;
     text-align: left;
     font-size: 50pt;
     margin: 19pt;
+    margin-bottom: 0pt;
     margin-left: 0pt;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
+    font-size: 15pt;
+    font-weight: 900;
     color: #ff7600;
     text-align: left;
     font-size: 30pt;
     margin: 0pt;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-background-size: 20%;
+    -webkit-text-fill-color: transparent;
 }
 
-p1 {
-    font-weight: 300;
+p {
+    margin: 0;
+    font-weight: 100;
+    font-size: 13pt;
 }
 
 html {
@@ -63,17 +74,23 @@ li a {
 }
 
 .navBtn {
-    transition: 0.2s;
+    font-size: 15pt;
+    transition: 1s;
+    padding-top: 7.7pt;
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     color: #ff7600;
-    background-color: rgba(255, 118, 0, 0);
-    border-radius: 50pt;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navBtn:hover {
     color: white;
-    background-color: rgba(255, 118, 0, 1);
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    color: white;
 }
 
 nav {
@@ -86,6 +103,18 @@ nav {
 }
 
 a {
+    font-weight: 900pt;
     color: #ff7600;
     text-decoration: none;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+a:hover {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.content {
+    margin-right: 500pt;
 }
