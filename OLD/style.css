@@ -1,0 +1,120 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+head {
+    
+}
+
+body {
+    /*background-image: linear-gradient(45deg, #141414, #262626);*/
+    background-color: #141414;
+    background-image: url(bg.PNG);
+    padding-left: 30pt;
+}
+
+h1 {
+    font-weight: 900;
+    float: left;
+    text-align: left;
+    font-size: 50pt;
+    margin: 19pt;
+    margin-bottom: 0pt;
+    margin-left: 0pt;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    font-size: 15pt;
+    font-weight: 900;
+    color: #ff7600;
+    text-align: left;
+    font-size: 30pt;
+    margin: 0pt;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-background-size: 20%;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    margin: 0;
+    font-weight: 100;
+    font-size: 13pt;
+}
+
+html {
+    height: 100%;
+}
+
+ul { 
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    padding: 5pt;
+    padding-top: 41.5pt;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBtn {
+    font-size: 15pt;
+    transition: 1s;
+    padding-top: 7.7pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ff7600;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navBtn:hover {
+    color: white;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff;
+    color: white;
+}
+
+nav {
+    padding: 0pt;
+    margin: 0pt;
+}
+
+.header {
+    overflow: hidden;
+}
+
+a {
+    font-weight: 900pt;
+    color: #ff7600;
+    text-decoration: none;
+    background: -webkit-linear-gradient(45deg, #05659B, #01E196);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
+a:hover {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.content {
+    margin-right: 500pt;
+}

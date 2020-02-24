@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet", href="style.css">
+    <link rel="icon", href="favicon.PNG">
+    <title>JARDEVS / Projects</title>
+</head>
+
+<body>
+    <div class="header">
+        <div id="nav-placeholder"></div>
+    </div>
+    <div class="content">
+        <p1>I am not currently working on any projects right now.</p1>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
+<script>
+
+window.onload = () => {
+   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+   bannerNode.parentNode.removeChild(bannerNode);
+}
+
+</script>

@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-    <link rel="stylesheet", href="style.css">
-    <link rel="icon", href="favicon.PNG">
-    <title>JARDEVS / Contact</title>
-</head>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="style.css">
 
-<body>
-    <div class="header">
-        <div id="nav-placeholder"></div>
-    </div>
-    <div class="content">
-        <p1>Email: <a href="https://www.gmail.com">j4rhay@gmail.com</a></p1>
-    </div>
-</body>
+        <title>JARDEV - Home</title>
+    </head>
+    <body class="preload">
+        <div class="header">
+            <nav>
+                <img src="logo.PNG" alt="My Logo" class="logo">
+                <h1 class="jardev">JARDEV.net</h1>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1 class="title">Contact Me</h1>
+            <p>Email - j4rhay@gmail.com</p>
+            <p class="navigation">
+                <a href="/index/">Home</a> -
+                <a href="/about/">About</a> -
+                <a href="/projects/">Projects</a> -
+                <a href="/contact/">Contact</a>
+            </p>
+        </div>
+    </body>
+</html>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
 
 <script>
-
-window.onload = () => {
-   let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
-   bannerNode.parentNode.removeChild(bannerNode);
-}
-
+    $(window).load(function() {
+        $("body").removeClass("preload");
+    });
 </script>
